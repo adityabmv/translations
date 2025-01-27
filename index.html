@@ -38,6 +38,9 @@
     .word-list input {
       flex: 1;
     }
+    .view-container {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -47,6 +50,12 @@
       <input type="file" id="uploadFile" class="form-control mt-2" accept="application/json">
     </div>
     <h1 class="text-center my-4">Translation App</h1>
+    <div id="viewButtons" class="mb-3">
+      <button id="viewOriginals" class="btn btn-secondary">View Originals (Alt + O)</button>
+      <button id="viewTranslations" class="btn btn-secondary">View Translations (Alt + T)</button>
+      <button id="viewWords" class="btn btn-secondary">View Words (Alt + W)</button>
+      <button id="viewMain" class="btn btn-primary">Back to Data Entry (Ctrl + Shift + K)</button>
+    </div>
     <div id="app" class="p-3 border rounded">
       <div class="input-group mb-3">
         <input type="text" id="originalInput" class="form-control" placeholder="Enter a sentence">
@@ -54,6 +63,7 @@
       </div>
       <div id="translations"></div>
     </div>
+    <div id="viewContainer" class="view-container p-3 border rounded"></div>
   </div>
 
   <!-- Bootstrap JS and dependencies -->
@@ -67,6 +77,14 @@
     const saveButton = document.getElementById('saveButton');
     const uploadFile = document.getElementById('uploadFile');
     const translationsDiv = document.getElementById('translations');
+    const viewContainer = document.getElementById('viewContainer');
+    const appContainer = document.getElementById('app');
+    const viewButtons = document.getElementById('viewButtons');
+
+    const viewOriginals = document.getElementById('viewOriginals');
+    const viewTranslations = document.getElementById('viewTranslations');
+    const viewWords = document.getElementById('viewWords');
+    const viewMain = document.getElementById('viewMain');
 
     function renderSentences() {
       translationsDiv.innerHTML = '';
@@ -189,6 +207,18 @@
       sequence = sentences.length + 1;
     }
 
+    function switchToView(content) {
+      appContainer.style.display = 'none';
+      viewContainer.style.display = 'block';
+      viewContainer.innerHTML = content;
+    }
+
+    function backToMain() {
+      viewContainer.style.display = 'none';
+      appContainer.style.display = 'block';
+      originalInput.focus();
+    }
+
     nextButton.addEventListener('click', addSentence);
 
     originalInput.addEventListener('keypress', (e) => {
@@ -235,11 +265,51 @@
       }
     });
 
-    // Add Ctrl+Shift+K shortcut to focus on the input
+    viewOriginals.addEventListener('click', () => {
+      const content = sentences
+        .map((sentence) => `<div>${sentence.sequence}. ${sentence.original}</div>`)
+        .join('');
+      switchToView(content);
+    });
+
+    viewTranslations.addEventListener('click', () => {
+      const content = sentences
+        .map((sentence) => `<div>${sentence.sequence}. ${sentence.translation}</div>`)
+        .join('');
+      switchToView(content);
+    });
+
+    viewWords.addEventListener('click', () => {
+      const content = sentences
+        .map((sentence) => {
+          const words = Object.entries(sentence.word_translations)
+            .map(([word, details]) => `<div>${word}: ${details.translation}</div>`)
+            .join('');
+          return `<div>${sentence.sequence}. Words:<br>${words}</div>`;
+        })
+        .join('');
+      switchToView(content);
+    });
+
+    viewMain.addEventListener('click', backToMain);
+
+    // Add keyboard shortcuts
     document.addEventListener('keydown', (e) => {
+      if (e.altKey && e.key.toLowerCase() === 'o') {
+        e.preventDefault();
+        viewOriginals.click();
+      }
+      if (e.altKey && e.key.toLowerCase() === 't') {
+        e.preventDefault();
+        viewTranslations.click();
+      }
+      if (e.altKey && e.key.toLowerCase() === 'w') {
+        e.preventDefault();
+        viewWords.click();
+      }
       if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'k') {
         e.preventDefault();
-        originalInput.focus();
+        backToMain();
       }
       if (e.ctrlKey && e.key.toLowerCase() === 's') {
         e.preventDefault();

@@ -20,6 +20,11 @@
       border: 1px solid #ddd;
       border-radius: 8px;
       padding: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+    .sentence-block:hover {
+      background-color: #f9f9f9;
     }
     .word-list {
       margin-top: 10px;
@@ -41,6 +46,47 @@
     .view-container {
       display: none;
     }
+    .split-view {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .split-view div {
+      flex: 1;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      overflow-y: auto;
+      max-height: 500px;
+    }
+    .split-view div p {
+      margin: 0;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+    .split-view div p span {
+      position: relative;
+      cursor: pointer;
+    }
+    .split-view div p span:hover::after {
+      content: attr(data-translation);
+      position: absolute;
+      top: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #343a40;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      white-space: nowrap;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+    }
   </style>
 </head>
 <body>
@@ -54,6 +100,7 @@
       <button id="viewOriginals" class="btn btn-secondary">View Originals (Alt + O)</button>
       <button id="viewTranslations" class="btn btn-secondary">View Translations (Alt + I)</button>
       <button id="viewWords" class="btn btn-secondary">View Words (Alt + W)</button>
+      <button id="viewSplit" class="btn btn-secondary">Split View (Alt + S)</button>
       <button id="viewMain" class="btn btn-primary">Back to Data Entry (Ctrl + Shift + K)</button>
     </div>
     <div id="app" class="p-3 border rounded">
@@ -84,13 +131,14 @@
     const viewOriginals = document.getElementById('viewOriginals');
     const viewTranslations = document.getElementById('viewTranslations');
     const viewWords = document.getElementById('viewWords');
+    const viewSplit = document.getElementById('viewSplit');
     const viewMain = document.getElementById('viewMain');
 
     function renderSentences() {
       translationsDiv.innerHTML = '';
-      const reversedSentences = [...sentences].reverse(); // Reverse order for UI display
+      const reversedSentences = [...sentences].reverse();
       reversedSentences.forEach((sentence, index) => {
-        const originalIndex = sentences.indexOf(sentence); // Preserve the correct index from the original array
+        const originalIndex = sentences.indexOf(sentence);
 
         const block = document.createElement('div');
         block.className = 'sentence-block';
@@ -122,13 +170,11 @@
           </ul>
         `;
 
-        // Change button for original sentence
         block.querySelector('.change-sentence').addEventListener('click', () => {
           const newOriginal = block.querySelector('.original').value.trim();
           const oldWords = Object.keys(sentences[originalIndex].word_translations);
           const newWords = newOriginal.split(' ');
 
-          // Update words in word_translations
           const updatedTranslations = {};
           newWords.forEach((word) => {
             if (oldWords.includes(word)) {
@@ -144,7 +190,6 @@
           renderSentences();
         });
 
-        // Update translation in sentences array
         block.querySelector('.translation').addEventListener('focus', (e) => {
           e.target.select();
         });
@@ -153,7 +198,6 @@
           sentences[originalIndex].translation = e.target.value;
         });
 
-        // Update word meanings in sentences array
         const wordInputs = block.querySelectorAll('.word-meaning');
         wordInputs.forEach((input) => {
           input.addEventListener('input', (e) => {
@@ -164,7 +208,6 @@
           });
         });
 
-        // Delete sentence
         block.querySelector('.delete-sentence').addEventListener('click', () => {
           sentences.splice(originalIndex, 1);
           reassignSequences();
@@ -174,7 +217,6 @@
         translationsDiv.appendChild(block);
       });
 
-      // Focus on the translation input of the newest sentence
       if (translationsDiv.firstChild) {
         const newestBlock = translationsDiv.firstChild;
         newestBlock.querySelector('.translation').focus();
@@ -190,7 +232,7 @@
         });
 
         sentences.push({
-          sequence: sequence++, // Add sequence to the sentence
+          sequence: sequence++,
           original,
           translation: '',
           word_translations: wordTranslations,
@@ -219,6 +261,19 @@
       originalInput.focus();
     }
 
+    function renderSplitView() {
+      const originalContent = sentences.map(sentence => `<p>${sentence.sequence}. ${sentence.original.split(' ').map(word => `<span data-translation="${sentence.word_translations[word]?.translation || ''}">${word}</span>`).join(' ')}</p>`).join('');
+      const translatedContent = sentences.map(sentence => `<p>${sentence.sequence}. ${sentence.translation || ''}</p>`).join('');
+
+      const splitView = `
+        <div class="split-view">
+          <div>${originalContent}</div>
+          <div>${translatedContent}</div>
+        </div>
+      `;
+      switchToView(splitView);
+    }
+
     nextButton.addEventListener('click', addSentence);
 
     originalInput.addEventListener('keypress', (e) => {
@@ -230,7 +285,6 @@
 
     saveButton.addEventListener('click', saveData);
 
-    // Save data as JSON and download
     function saveData() {
       const json = JSON.stringify({ sentences }, null, 2);
       const blob = new Blob([json], { type: 'application/json' });
@@ -240,7 +294,6 @@
       link.click();
     }
 
-    // Load data from JSON file
     uploadFile.addEventListener('change', (e) => {
       const file = e.target.files[0];
       if (file) {
@@ -291,9 +344,10 @@
       switchToView(content);
     });
 
+    viewSplit.addEventListener('click', renderSplitView);
+
     viewMain.addEventListener('click', backToMain);
 
-    // Add keyboard shortcuts
     document.addEventListener('keydown', (e) => {
       if (e.altKey && e.key.toLowerCase() === 'o') {
         e.preventDefault();
@@ -306,6 +360,10 @@
       if (e.altKey && e.key.toLowerCase() === 'w') {
         e.preventDefault();
         viewWords.click();
+      }
+      if (e.altKey && e.key.toLowerCase() === 's') {
+        e.preventDefault();
+        viewSplit.click();
       }
       if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'k') {
         e.preventDefault();

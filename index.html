@@ -44,6 +44,7 @@
   <div class="container my-4">
     <div class="sticky-save">
       <button id="saveButton" class="btn btn-success w-100">Save</button>
+      <input type="file" id="uploadFile" class="form-control mt-2" accept="application/json">
     </div>
     <h1 class="text-center my-4">Translation App</h1>
     <div id="app" class="p-3 border rounded">
@@ -64,6 +65,7 @@
     const originalInput = document.getElementById('originalInput');
     const nextButton = document.getElementById('nextButton');
     const saveButton = document.getElementById('saveButton');
+    const uploadFile = document.getElementById('uploadFile');
     const translationsDiv = document.getElementById('translations');
 
     function renderSentences() {
@@ -207,6 +209,31 @@
       link.download = 'translations.json';
       link.click();
     }
+
+    // Load data from JSON file
+    uploadFile.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            const data = JSON.parse(event.target.result);
+            if (data.sentences && Array.isArray(data.sentences)) {
+              sentences.length = 0;
+              data.sentences.forEach((sentence) => sentences.push(sentence));
+              reassignSequences();
+              renderSentences();
+              alert('File loaded successfully!');
+            } else {
+              alert('Invalid file format.');
+            }
+          } catch (error) {
+            alert('Error parsing file: ' + error.message);
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
 
     // Add Ctrl+Shift+K shortcut to focus on the input
     document.addEventListener('keydown', (e) => {

@@ -52,7 +52,7 @@
     <h1 class="text-center my-4">Translation App</h1>
     <div id="viewButtons" class="mb-3">
       <button id="viewOriginals" class="btn btn-secondary">View Originals (Alt + O)</button>
-      <button id="viewTranslations" class="btn btn-secondary">View Translations (Alt + T)</button>
+      <button id="viewTranslations" class="btn btn-secondary">View Translations (Alt + I)</button>
       <button id="viewWords" class="btn btn-secondary">View Words (Alt + W)</button>
       <button id="viewMain" class="btn btn-primary">Back to Data Entry (Ctrl + Shift + K)</button>
     </div>
@@ -299,7 +299,7 @@
         e.preventDefault();
         viewOriginals.click();
       }
-      if (e.altKey && e.key.toLowerCase() === 't') {
+      if (e.altKey && e.key.toLowerCase() === 'i') {
         e.preventDefault();
         viewTranslations.click();
       }

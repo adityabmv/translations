@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "sequence": 1,
+      "original": "nārāyaṇakūṭam nāma grāmaḥ",
+      "translation": "There is a village named Nārāyanakūṭam",
+      "word_translations": {
+        "nārāyaṇakūṭam": {
+          "translation": "Nārāyaṇakūtam"
+        },
+        "nāma": {
+          "translation": "named"
+        },
+        "grāmaḥ": {
+          "translation": "village"
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "original": "tatra ramaṇaḥ nāma parōpakārī vasati sma",
+      "translation": "There a benevolent person named Ramaṇa lived",
+      "word_translations": {
+        "tatra": {
+          "translation": "there"
+        },
+        "ramaṇaḥ": {
+          "translation": "Ramaṇa"
+        },
+        "nāma": {
+          "translation": "named"
+        },
+        "parōpakārī": {
+          "translation": "benevolent"
+        },
+        "vasati": {
+          "translation": "lives"
+        },
+        "sma": {
+          "translation": "(past indicater, converts the sentence from present to past)"
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "original": "ēkadā mahatyā vrṣṭyā caṇḍamārutēna ca vr̥kśāḥ patitāḥ",
+      "translation": "Once due to very fierce and rain and storm, the trees",
+      "word_translations": {
+        "ēkadā": {
+          "translation": "once"
+        },
+        "mahatyā": {
+          "translation": "very great"
+        },
+        "vrṣṭyā": {
+          "translation": "with rain"
+        },
+        "caṇḍamārutena": {
+          "translation": "with fierce storm"
+        },
+        "ca": {
+          "translation": "and, in a sense of also"
+        },
+        "vr̥kśāḥ": {
+          "translation": "trees"
+        },
+        "patitāḥ": {
+          "translation": "have fallen"
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "original": "gr̥hāni śithilāni jātāni",
+      "translation": "Houses have become weak",
+      "word_translations": {
+        "gr̥hāni": {
+          "translation": "All houses"
+        },
+        "śithilāni": {
+          "translation": "weak"
+        },
+        "jātāni": {
+          "translation": "have gone/ have become"
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "original": "bahavaḥ nirgatikāḥ abhavan",
+      "translation": "Many people became helpless",
+      "word_translations": {
+        "bahavaḥ": {
+          "translation": "many people (male)"
+        },
+        "nirgatikāḥ": {
+          "translation": "helpless (combination of nir + gati)"
+        },
+        "abhavan": {
+          "translation": "became"
+        }
+      }
+    },
+    {
+      "sequence": 6,
+      "original": "ramaṇaḥ gr̥ham gr̥ham aṭitvā dhanam saṅgr̥hitavān",
+      "translation": "",
+      "word_translations": {
+        "ramaṇaḥ": {
+          "translation": ""
+        },
+        "gr̥ham": {
+          "translation": ""
+        },
+        "aṭitvā": {
+          "translation": ""
+        },
+        "dhanam": {
+          "translation": ""
+        },
+        "saṅgr̥hitavān": {
+          "translation": ""
+        }
+      }
+    }
+  ]
+}

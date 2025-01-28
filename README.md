@@ -41,7 +41,7 @@ Toggle between different views for specific needs:
 | Save data as JSON             | `Ctrl + S`       |
 | Load a saved JSON file        | Use upload button|
 | View original sentences       | `Alt + O`        |
-| View translated sentences     | `Alt + T`        |
+| View translated sentences     | `Alt + I`        |
 | View words and meanings       | `Alt + W`        |
 | Back to main data entry page  | `Ctrl + Shift + K`|
 

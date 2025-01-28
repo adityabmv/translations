@@ -55,7 +55,7 @@
         "vrṣṭyā": {
           "translation": "with rain"
         },
-        "caṇḍamārutena": {
+        "caṇḍamārutēna": {
           "translation": "with fierce storm"
         },
         "ca": {
@@ -104,22 +104,143 @@
     {
       "sequence": 6,
       "original": "ramaṇaḥ gr̥ham gr̥ham aṭitvā dhanam saṅgr̥hitavān",
-      "translation": "",
+      "translation": "Ramaṇa, having gone from house to house, collected money.",
       "word_translations": {
         "ramaṇaḥ": {
-          "translation": ""
+          "translation": "Ramaṇa"
         },
         "gr̥ham": {
-          "translation": ""
+          "translation": "house"
         },
         "aṭitvā": {
-          "translation": ""
+          "translation": "after roaming"
         },
         "dhanam": {
-          "translation": ""
+          "translation": "money"
         },
         "saṅgr̥hitavān": {
+          "translation": "has collected"
+        }
+      }
+    },
+    {
+      "sequence": 7,
+      "original": "nirgatikānām kr̥tē tēna dhanēna kuṭirān nirmāpya dattavān",
+      "translation": "For the sake of the homeless people, with that money, he built houses and donated (them).",
+      "word_translations": {
+        "nirgatikānām": {
+          "translation": "of homeless persons"
+        },
+        "kr̥tē": {
+          "translation": "for sake of"
+        },
+        "tēna": {
+          "translation": "(adjective ) with that"
+        },
+        "dhanēna": {
+          "translation": "with money"
+        },
+        "kuṭirān": {
+          "translation": "huts"
+        },
+        "nirmāpya": {
+          "translation": "having built"
+        },
+        "dattavān": {
+          "translation": "he gave"
+        }
+      }
+    },
+    {
+      "sequence": 8,
+      "original": "ētat puṇyakāryārtham grāmīṇāḥ sarvē dhanam dattavantaḥ",
+      "translation": "For this noble work, all the people of the village donated money.",
+      "word_translations": {
+        "ētat": {
+          "translation": "this"
+        },
+        "puṇyakāryārtham": {
+          "translation": "for the noble work"
+        },
+        "grāmīṇāḥ": {
+          "translation": "people of the village"
+        },
+        "sarvē": {
+          "translation": "all"
+        },
+        "dhanam": {
+          "translation": "money"
+        },
+        "dattavantaḥ": {
+          "translation": "donated"
+        }
+      }
+    },
+    {
+      "sequence": 9,
+      "original": "kintu dhanaguptaḥ nāma dhanikaḥ ēkam nāṇakam api na dattavān",
+      "translation": "But a wealthy person named Dhanagupta did not even donate a single coin",
+      "word_translations": {
+        "kintu": {
+          "translation": "but"
+        },
+        "dhanaguptaḥ": {
+          "translation": "Dhanagupta"
+        },
+        "nāma": {
+          "translation": "named"
+        },
+        "dhanikaḥ": {
+          "translation": "wealthy"
+        },
+        "ēkam": {
+          "translation": "one"
+        },
+        "nāṇakam": {
           "translation": ""
+        },
+        "api": {
+          "translation": "also (in the sense on Engligh even, refer the whole translation)"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "dattavān": {
+          "translation": "donated"
+        }
+      }
+    },
+    {
+      "sequence": 10,
+      "original": "adhikadānam yē kr̥tavantaḥ tēṣām nāmāni ramaṇaḥ sarvatra udghōṣayati sma",
+      "translation": "Ramaṇaḥ announces the names of people everywhere who had done large donations ",
+      "word_translations": {
+        "adhikadānam": {
+          "translation": "larger doantion"
+        },
+        "yē": {
+          "translation": "who"
+        },
+        "kr̥tavantaḥ": {
+          "translation": "did"
+        },
+        "tēṣām": {
+          "translation": "their"
+        },
+        "nāmāni": {
+          "translation": "names"
+        },
+        "ramaṇaḥ": {
+          "translation": "Ramaṇa"
+        },
+        "sarvatra": {
+          "translation": "everywhere"
+        },
+        "udghōṣayati": {
+          "translation": "annouces"
+        },
+        "sma": {
+          "translation": "(past indicater)"
         }
       }
     }

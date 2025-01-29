@@ -243,6 +243,149 @@
           "translation": "(past indicater)"
         }
       }
+    },
+    {
+      "sequence": 11,
+      "original": "dhanaguptaḥ ramaṇam āhūya bhartsayitva uktavān",
+      "translation": "Dhanagupta having called and threatened Ramana said",
+      "word_translations": {
+        "dhanaguptaḥ": {
+          "translation": "Dhanagupta"
+        },
+        "ramaṇam": {
+          "translation": "Ramaṇa"
+        },
+        "āhūya": {
+          "translation": "having called"
+        },
+        "bhartsayitva": {
+          "translation": "having threatened"
+        },
+        "uktavān": {
+          "translation": "said"
+        }
+      }
+    },
+    {
+      "sequence": 12,
+      "original": "bhoḥ mahopakārin kimartham dātr̥̄ṇām nāmāni sadā raṭati",
+      "translation": "O great helper, why do you always chant the names of donors?",
+      "word_translations": {
+        "bhoḥ": {
+          "translation": "hey"
+        },
+        "mahopakārin": {
+          "translation": "great helper"
+        },
+        "kimartham": {
+          "translation": "for what reason"
+        },
+        "dātr̥̄ṇām": {
+          "translation": "of donors"
+        },
+        "nāmāni": {
+          "translation": "names"
+        },
+        "sadā": {
+          "translation": "always"
+        },
+        "raṭati": {
+          "translation": "announces"
+        }
+      }
+    },
+    {
+      "sequence": 13,
+      "original": "yēṣām gr̥haṁ dhanaṁ ca naṣṭaṁ tēṣu kiścit api bhikṣām na yācitavān",
+      "translation": "Of those people whose homes and houses were destroyed, among them not even a few people requested alms.",
+      "word_translations": {
+        "yēṣām": {
+          "translation": "of whose"
+        },
+        "gr̥haṁ": {
+          "translation": "house"
+        },
+        "dhanaṁ": {
+          "translation": "money"
+        },
+        "ca": {
+          "translation": "and"
+        },
+        "naṣṭaṁ": {
+          "translation": "destroyed"
+        },
+        "tēṣu": {
+          "translation": "in them/among them"
+        },
+        "kiścit": {
+          "translation": "a few people"
+        },
+        "api": {
+          "translation": "also"
+        },
+        "bhikṣām": {
+          "translation": "alms"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "yācitavān": {
+          "translation": "requested/begged"
+        }
+      }
+    },
+    {
+      "sequence": 14,
+      "original": "atra rahasyam kiṁ bhavān jānāti",
+      "translation": "Do you know the secret here",
+      "word_translations": {
+        "atra": {
+          "translation": "here"
+        },
+        "rahasyam": {
+          "translation": "secret"
+        },
+        "kiṁ": {
+          "translation": "what"
+        },
+        "bhavān": {
+          "translation": "you"
+        },
+        "jānāti": {
+          "translation": "know"
+        }
+      }
+    },
+    {
+      "sequence": 15,
+      "original": "śrunōtu bhikṣām yācitum asmin grāmē kō'pi na icchati",
+      "translation": "Listen no one in this village wishes to beg for alms",
+      "word_translations": {
+        "śrunōtu": {
+          "translation": "listen"
+        },
+        "bhikṣām": {
+          "translation": "alms"
+        },
+        "yācitum": {
+          "translation": "to request/to beg"
+        },
+        "asmin": {
+          "translation": "in this"
+        },
+        "grāmē": {
+          "translation": "in village"
+        },
+        "kō'pi": {
+          "translation": "Anybody"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "icchati": {
+          "translation": "wishes"
+        }
+      }
     }
   ]
 }

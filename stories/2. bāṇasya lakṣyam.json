@@ -1,0 +1,604 @@
+{
+  "sentences": [
+    {
+      "sequence": 1,
+      "original": "vīravaraḥ catvāriṃśadvarṣīyaḥ kaścana kṛṣakaḥ",
+      "translation": "Vīravara, a forty-year-old farmer.",
+      "word_translations": {
+        "vīravaraḥ": {
+          "translation": "Viravarah"
+        },
+        "catvāriṃśadvarṣīyaḥ": {
+          "translation": "40 years"
+        },
+        "kaścana": {
+          "translation": "someone/one/a"
+        },
+        "kṛṣakaḥ": {
+          "translation": "farmer"
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "original": "kadācit tasya manasi ālocanā āgatā",
+      "translation": "Once, a thought came into his mind.",
+      "word_translations": {
+        "kadācit": {
+          "translation": "Sometime/Once"
+        },
+        "tasya": {
+          "translation": "his"
+        },
+        "manasi": {
+          "translation": "in mind"
+        },
+        "ālocanā": {
+          "translation": "thoughts"
+        },
+        "āgatā": {
+          "translation": "came"
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "original": "ahaṃ janmani kimapina sādhitavān",
+      "translation": "I have not accomplished anything in this life.",
+      "word_translations": {
+        "ahaṃ": {
+          "translation": "I"
+        },
+        "janmani": {
+          "translation": "in this life"
+        },
+        "kimapina": {
+          "translation": "not at all"
+        },
+        "sādhitavān": {
+          "translation": "accomplished/achieved"
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "original": "itare mama samavayaskāḥ mama apekṣayā kaniṣṭhāḥ api kīrtiśālinaḥ sañjātāḥ",
+      "translation": "Others of my age, and even those younger than me, have attained fame.",
+      "word_translations": {
+        "itare": {
+          "translation": "the rest/others"
+        },
+        "mama": {
+          "translation": "my"
+        },
+        "samavayaskāḥ": {
+          "translation": "people of similar age"
+        },
+        "apekṣayā": {
+          "translation": "than"
+        },
+        "kaniṣṭhāḥ": {
+          "translation": "younger"
+        },
+        "api": {
+          "translation": "also"
+        },
+        "kīrtiśālinaḥ": {
+          "translation": "name/famous"
+        },
+        "sañjātāḥ": {
+          "translation": "become"
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "original": "kecana lakṣādhīśāḥ api jātāḥ",
+      "translation": "Some people have also become millionaires.",
+      "word_translations": {
+        "kecana": {
+          "translation": "some people"
+        },
+        "lakṣādhīśāḥ": {
+          "translation": "millioner/possessed of a lakh"
+        },
+        "api": {
+          "translation": "also"
+        },
+        "jātāḥ": {
+          "translation": "became/have become"
+        }
+      }
+    },
+    {
+      "sequence": 6,
+      "original": "ahaṃ tu anāmadheyaḥ iva jīvāmi",
+      "translation": "But I live as someone without any name or fame.",
+      "word_translations": {
+        "ahaṃ": {
+          "translation": "I"
+        },
+        "tu": {
+          "translation": "but"
+        },
+        "anāmadheyaḥ": {
+          "translation": "nameless"
+        },
+        "iva": {
+          "translation": "as/like/as if"
+        },
+        "jīvāmi": {
+          "translation": "living(I am living)"
+        }
+      }
+    },
+    {
+      "sequence": 7,
+      "original": "iti",
+      "translation": "(thus) (ends the speech)",
+      "word_translations": {
+        "iti": {
+          "translation": "thus/so"
+        }
+      }
+    },
+    {
+      "sequence": 8,
+      "original": "itaḥparaṃ jīvanaṃ vyartham iti cintayan vīravaraḥ araṇyaṃ gatavān",
+      "translation": "Thinking, 'From now on, life is useless,' Vīravara went to the forest.",
+      "word_translations": {
+        "itaḥparaṃ": {
+          "translation": "henceforth"
+        },
+        "jīvanaṃ": {
+          "translation": "life"
+        },
+        "vyartham": {
+          "translation": "waste"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "cintayan": {
+          "translation": "thinking"
+        },
+        "vīravaraḥ": {
+          "translation": "viravara"
+        },
+        "araṇyaṃ": {
+          "translation": "forest"
+        },
+        "gatavān": {
+          "translation": "went"
+        }
+      }
+    },
+    {
+      "sequence": 9,
+      "original": "tatra mārge kaścana saṃnyāsī militaḥ",
+      "translation": "There, he met a monk on the way.",
+      "word_translations": {
+        "tatra": {
+          "translation": "there"
+        },
+        "mārge": {
+          "translation": "on the path"
+        },
+        "kaścana": {
+          "translation": "someone/some person"
+        },
+        "saṃnyāsī": {
+          "translation": "Sanyasi"
+        },
+        "militaḥ": {
+          "translation": "met"
+        }
+      }
+    },
+    {
+      "sequence": 10,
+      "original": "saṃnyāsī pṛṣṭavān",
+      "translation": "The monk asked him.",
+      "word_translations": {
+        "saṃnyāsī": {
+          "translation": "Sanyasi"
+        },
+        "pṛṣṭavān": {
+          "translation": "asked"
+        }
+      }
+    },
+    {
+      "sequence": 11,
+      "original": "krūramṛgaiḥ vyāptam etat araṇyaṃ bhavān kimartham āgatavān",
+      "translation": "Why have you come into this forest full of wild beasts?",
+      "word_translations": {
+        "krūramṛgaiḥ": {
+          "translation": "cruel animals/wild beasts"
+        },
+        "vyāptam": {
+          "translation": "spread"
+        },
+        "etat": {
+          "translation": "this"
+        },
+        "araṇyaṃ": {
+          "translation": "forest"
+        },
+        "bhavān": {
+          "translation": "you"
+        },
+        "kimartham": {
+          "translation": "for what reason/why"
+        },
+        "āgatavān": {
+          "translation": "came"
+        }
+      }
+    },
+    {
+      "sequence": 12,
+      "original": "iti",
+      "translation": "(thus) (ends the speech)",
+      "word_translations": {
+        "iti": {
+          "translation": "thus/so"
+        }
+      }
+    },
+    {
+      "sequence": 13,
+      "original": "svāmin jīvite ahaṃ kimapina sādhitavān",
+      "translation": "Vīravara replied, \"O Swami, I have achieved nothing in life",
+      "word_translations": {
+        "svāmin": {
+          "translation": "Swami"
+        },
+        "jīvite": {
+          "translation": "in this life"
+        },
+        "ahaṃ": {
+          "translation": "I"
+        },
+        "kimapina": {
+          "translation": "not at all"
+        },
+        "sādhitavān": {
+          "translation": "achieved/accomplished"
+        }
+      }
+    },
+    {
+      "sequence": 14,
+      "original": "ataḥ vairāgyeṇa atra āgatavān",
+      "translation": "Therefore, I have come here out of dispassion.",
+      "word_translations": {
+        "ataḥ": {
+          "translation": "so"
+        },
+        "vairāgyeṇa": {
+          "translation": "aversion/dislike/dispassion"
+        },
+        "atra": {
+          "translation": "here"
+        },
+        "āgatavān": {
+          "translation": "came"
+        }
+      }
+    },
+    {
+      "sequence": 15,
+      "original": "iti uktavān vīravaraḥ",
+      "translation": "Thus spoke Vīravara.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus/so"
+        },
+        "uktavān": {
+          "translation": "said"
+        },
+        "vīravaraḥ": {
+          "translation": "viravara"
+        }
+      }
+    },
+    {
+      "sequence": 16,
+      "original": "saṃnyāsī mandahāsaṃ prakaṭayan",
+      "translation": "The monk, revealing a gentle smile...",
+      "word_translations": {
+        "saṃnyāsī": {
+          "translation": "Sanyasi"
+        },
+        "mandahāsaṃ": {
+          "translation": "smile/gentle smile"
+        },
+        "prakaṭayan": {
+          "translation": "showing/revealing"
+        }
+      }
+    },
+    {
+      "sequence": 17,
+      "original": "kimapi na sādhitavān iti duḥkham anubhavati kila bhavān",
+      "translation": "It seems you feel sorrow thinking you have not accomplished anything.",
+      "word_translations": {
+        "kimapi": {
+          "translation": "something"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "sādhitavān": {
+          "translation": "has accomplished"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "duḥkham": {
+          "translation": "pain/sorrow"
+        },
+        "anubhavati": {
+          "translation": "experiences"
+        },
+        "kila": {
+          "translation": "apparently/it seems/(this is what you asked about)"
+        },
+        "bhavān": {
+          "translation": ""
+        }
+      }
+    },
+    {
+      "sequence": 18,
+      "original": "evaṃ tarhi kiṃ sādhanīyam iti lakṣyam āsīt bhavataḥ",
+      "translation": "Then, what goal was there for you to accomplish?\"",
+      "word_translations": {
+        "evaṃ": {
+          "translation": "thus/"
+        },
+        "tarhi": {
+          "translation": "then"
+        },
+        "kiṃ": {
+          "translation": "what"
+        },
+        "sādhanīyam": {
+          "translation": "what is to be accomplished"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "lakṣyam": {
+          "translation": "goal"
+        },
+        "āsīt": {
+          "translation": "was"
+        },
+        "bhavataḥ": {
+          "translation": "of you"
+        }
+      }
+    },
+    {
+      "sequence": 19,
+      "original": "iti pṛṣṭavān",
+      "translation": "Thus he asked.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "pṛṣṭavān": {
+          "translation": "asked"
+        }
+      }
+    },
+    {
+      "sequence": 20,
+      "original": "nirdiṣṭaṃ lakṣyaṃ kimapi nāsti",
+      "translation": "There was no specific goal at all.",
+      "word_translations": {
+        "nirdiṣṭaṃ": {
+          "translation": "specific"
+        },
+        "lakṣyaṃ": {
+          "translation": "goal"
+        },
+        "kimapi": {
+          "translation": "something/anything"
+        },
+        "nāsti": {
+          "translation": "does not exist"
+        }
+      }
+    },
+    {
+      "sequence": 21,
+      "original": "iti uktavān vīravaraḥ",
+      "translation": "Thus said Vīravara.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "uktavān": {
+          "translation": "spoke"
+        },
+        "vīravaraḥ": {
+          "translation": "viravara"
+        }
+      }
+    },
+    {
+      "sequence": 22,
+      "original": "tadā saṃnyāsī pṛṣṭavān",
+      "translation": "Then the monk asked.",
+      "word_translations": {
+        "tadā": {
+          "translation": "then"
+        },
+        "saṃnyāsī": {
+          "translation": "Sanyasi"
+        },
+        "pṛṣṭavān": {
+          "translation": "asked"
+        }
+      }
+    },
+    {
+      "sequence": 23,
+      "original": "bāṇaḥ lakṣye na yojitaḥ eva",
+      "translation": "The arrow was not even placed on the target.",
+      "word_translations": {
+        "bāṇaḥ": {
+          "translation": "arrow"
+        },
+        "lakṣye": {
+          "translation": "in the goal"
+        },
+        "na": {
+          "translation": "na"
+        },
+        "yojitaḥ": {
+          "translation": "placed/hit/aimed"
+        },
+        "eva": {
+          "translation": "indeed(adds emphasis)"
+        }
+      }
+    },
+    {
+      "sequence": 24,
+      "original": "evaṃsthite lakṣyaṃ nasiddham iti khedaḥ kimartham",
+      "translation": "When this is the case, why sorrow over the goal not being accomplished?",
+      "word_translations": {
+        "evaṃsthite": {
+          "translation": "in this situation"
+        },
+        "lakṣyaṃ": {
+          "translation": "goal"
+        },
+        "nasiddham": {
+          "translation": "not ready/not there"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "khedaḥ": {
+          "translation": "pain/sorrow"
+        },
+        "kimartham": {
+          "translation": "for what reason/why"
+        }
+      }
+    },
+    {
+      "sequence": 25,
+      "original": "iti",
+      "translation": "(thus) (ends the speech)",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        }
+      }
+    },
+    {
+      "sequence": 26,
+      "original": "etena vīravaraḥ vivekaṃ prāptavān",
+      "translation": "Through this, Viravara attained wisdom",
+      "word_translations": {
+        "etena": {
+          "translation": "with this/by this/through this"
+        },
+        "vīravaraḥ": {
+          "translation": "viravara"
+        },
+        "vivekaṃ": {
+          "translation": "wisdom"
+        },
+        "prāptavān": {
+          "translation": "has obtained/has attained"
+        }
+      }
+    },
+    {
+      "sequence": 27,
+      "original": "taddine eva saḥ",
+      "translation": "On that very day, he...",
+      "word_translations": {
+        "taddine": {
+          "translation": "on that day"
+        },
+        "eva": {
+          "translation": "indeed"
+        },
+        "saḥ": {
+          "translation": "he"
+        }
+      }
+    },
+    {
+      "sequence": 28,
+      "original": "ahaṃ kimapi na sādhitavān",
+      "translation": "I did not accomplish anything",
+      "word_translations": {
+        "ahaṃ": {
+          "translation": "I"
+        },
+        "kimapi": {
+          "translation": "something/anything"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "sādhitavān": {
+          "translation": "accomplished/achieved"
+        }
+      }
+    },
+    {
+      "sequence": 29,
+      "original": "iti khedaṃ tyaktvān",
+      "translation": "Thus, having abandoned sorrow",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "khedaṃ": {
+          "translation": "sorrow"
+        },
+        "tyaktvān": {
+          "translation": "having abandoned"
+        }
+      }
+    },
+    {
+      "sequence": 30,
+      "original": "yāvacchakyaṃ tāvat kāryaṃ kurvan tṛptyā jīvanaṃ yāpitavān",
+      "translation": "Doing whatever work was possible, he lived his life with contentment.",
+      "word_translations": {
+        "yāvacchakyaṃ": {
+          "translation": "as much as possible (yāvat = \"as much,\" śakyaṃ = \"possible\")"
+        },
+        "tāvat": {
+          "translation": "to that extent"
+        },
+        "kāryaṃ": {
+          "translation": "work/duty"
+        },
+        "kurvan": {
+          "translation": "doing"
+        },
+        "tṛptyā": {
+          "translation": "with satisfaction"
+        },
+        "jīvanaṃ": {
+          "translation": "life"
+        },
+        "yāpitavān": {
+          "translation": "spent/carried on"
+        }
+      }
+    }
+  ]
+}

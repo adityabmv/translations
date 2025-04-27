@@ -1,5 +1,5 @@
 # Translation
-A minimal single HTML application that allows for easy writing of bilingual translations.
+A minimal single HTML application that allows for easy entry of bilingual translations
 
 ## Overview
 The Translation App is a web-based tool designed to facilitate translation tasks. It supports entering original sentences, adding translations, associating meanings to individual words, saving data as JSON, and resuming work by uploading saved files. The app provides a user-friendly interface with accessible keyboard shortcuts for efficient workflow management.

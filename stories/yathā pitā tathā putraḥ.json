@@ -1,0 +1,860 @@
+{
+  "sentences": [
+    {
+      "sequence": 1,
+      "original": "kasmiścit grāmē harīśaḥ nāma kr̥ṣika āsīt",
+      "translation": "In some village, there was a farmer named Harisha.",
+      "word_translations": {
+        "kasmiścit": {
+          "translation": "In some"
+        },
+        "grāmē": {
+          "translation": "village"
+        },
+        "harīśaḥ": {
+          "translation": "Harisha"
+        },
+        "nāma": {
+          "translation": "named"
+        },
+        "kr̥ṣika": {
+          "translation": "farmer"
+        },
+        "āsīt": {
+          "translation": "(existed)"
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "original": "bahudinānantaraṁ taṁ draṣṭuṁ tasya mitraṁ pratāpaḥ āgatavān",
+      "translation": "After many days, his friend came to see him.",
+      "word_translations": {
+        "bahudinānantaraṁ": {
+          "translation": "after many days"
+        },
+        "taṁ": {
+          "translation": "him"
+        },
+        "draṣṭuṁ": {
+          "translation": "to see"
+        },
+        "tasya": {
+          "translation": "his"
+        },
+        "mitraṁ": {
+          "translation": "friend"
+        },
+        "pratāpaḥ": {
+          "translation": "Pratap"
+        },
+        "āgatavān": {
+          "translation": "came"
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "original": "harīśaḥ dhanikaḥ āsīt",
+      "translation": "Harisha was rich.",
+      "word_translations": {
+        "harīśaḥ": {
+          "translation": "Harisha"
+        },
+        "dhanikaḥ": {
+          "translation": "rich"
+        },
+        "āsīt": {
+          "translation": "was"
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "original": "tasya pitā kr̥ṣikāryēṇa saha kusīdavāṇijya kr̥tvā adhikaṁ dhanaṁ sampādya putrasya nimittam api sagr̥hītavān āsīt",
+      "translation": "His father, along with farming work, by doing moneylending business, earned more wealth and had also saved it for the sake of his son.",
+      "word_translations": {
+        "tasya": {
+          "translation": "his"
+        },
+        "pitā": {
+          "translation": "father"
+        },
+        "kr̥ṣikāryēṇa": {
+          "translation": "with farming"
+        },
+        "saha": {
+          "translation": "along"
+        },
+        "kusīdavāṇijya": {
+          "translation": "money lending business"
+        },
+        "kr̥tvā": {
+          "translation": "after doing"
+        },
+        "adhikaṁ": {
+          "translation": "more"
+        },
+        "dhanaṁ": {
+          "translation": "money"
+        },
+        "sampādya": {
+          "translation": "after accuiring"
+        },
+        "putrasya": {
+          "translation": "of son"
+        },
+        "nimittam": {
+          "translation": "for the sake of"
+        },
+        "api": {
+          "translation": "also"
+        },
+        "sagr̥hītavān": {
+          "translation": "obtained"
+        },
+        "āsīt": {
+          "translation": "(helping verb to indicate past)"
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "original": "harīśasya ēkaḥ ēva putraḥ āsīt",
+      "translation": "Harisha had only one son.",
+      "word_translations": {
+        "harīśasya": {
+          "translation": "of Harisha"
+        },
+        "ēkaḥ": {
+          "translation": "one"
+        },
+        "ēva": {
+          "translation": "only"
+        },
+        "putraḥ": {
+          "translation": "son"
+        },
+        "āsīt": {
+          "translation": "(helping verb to indicate past)"
+        }
+      }
+    },
+    {
+      "sequence": 6,
+      "original": "putrē vidyāyāḥ lēśaḥ api na āsīt",
+      "translation": "In the son, not even a trace of learning was present.",
+      "word_translations": {
+        "putrē": {
+          "translation": "in the son"
+        },
+        "vidyāyāḥ": {
+          "translation": "of learning"
+        },
+        "lēśaḥ": {
+          "translation": "a small portion/a small trace"
+        },
+        "api": {
+          "translation": "even"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "āsīt": {
+          "translation": "present"
+        }
+      }
+    },
+    {
+      "sequence": 7,
+      "original": "saḥ laghukāryāṇi kartum api asamarthaḥ mūrkhaḥ iva dr̥ṣṭaḥ pratāpēna",
+      "translation": "Pratapa observed that he was a fool, for he could not do even small tasks.",
+      "word_translations": {
+        "saḥ": {
+          "translation": "he"
+        },
+        "laghukāryāṇi": {
+          "translation": "small work"
+        },
+        "kartum": {
+          "translation": "to work"
+        },
+        "api": {
+          "translation": "also"
+        },
+        "asamarthaḥ": {
+          "translation": "not capable"
+        },
+        "mūrkhaḥ": {
+          "translation": "fool"
+        },
+        "iva": {
+          "translation": "like this"
+        },
+        "dr̥ṣṭaḥ": {
+          "translation": "saw"
+        },
+        "pratāpēna": {
+          "translation": "by Pratapa"
+        }
+      }
+    },
+    {
+      "sequence": 8,
+      "original": "ataḥ saḥ harīśam uktavān",
+      "translation": "Therefore, he said to Harisha.",
+      "word_translations": {
+        "ataḥ": {
+          "translation": "Therefore"
+        },
+        "saḥ": {
+          "translation": "he"
+        },
+        "harīśam": {
+          "translation": "to Harisha"
+        },
+        "uktavān": {
+          "translation": "said"
+        }
+      }
+    },
+    {
+      "sequence": 9,
+      "original": "bhōḥ bhavataḥ putraḥ mandaḥ iti bhāti darśanēna ataḥ taṁ kasyacit gurōḥ samīpaṁ vidyābhyāsārthaṁ prēṣayatu",
+      "translation": "O! By his appearance, your son seems to be dull. Therefore, please send him to some teacher for the purpose of study.",
+      "word_translations": {
+        "bhōḥ": {
+          "translation": "hey"
+        },
+        "bhavataḥ": {
+          "translation": "your"
+        },
+        "putraḥ": {
+          "translation": "son"
+        },
+        "mandaḥ": {
+          "translation": "dull/unintelligent"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "bhāti": {
+          "translation": "it appears"
+        },
+        "darśanēna": {
+          "translation": "by seeing"
+        },
+        "ataḥ": {
+          "translation": "therefore"
+        },
+        "taṁ": {
+          "translation": "you"
+        },
+        "kasyacit": {
+          "translation": "of someone"
+        },
+        "gurōḥ": {
+          "translation": "guru"
+        },
+        "samīpaṁ": {
+          "translation": "near"
+        },
+        "vidyābhyāsārthaṁ": {
+          "translation": "for learning"
+        },
+        "prēṣayatu": {
+          "translation": "send"
+        }
+      }
+    },
+    {
+      "sequence": 10,
+      "original": "nōcēt agrē saḥ bhavataḥ sampadaḥ rakṣaṇaṁ kartuṁ na śaknuyāt",
+      "translation": "Otherwise, in the future, he may not be able to protect your wealth.",
+      "word_translations": {
+        "nōcēt": {
+          "translation": "if not"
+        },
+        "agrē": {
+          "translation": "later/in future"
+        },
+        "saḥ": {
+          "translation": "he"
+        },
+        "bhavataḥ": {
+          "translation": "your"
+        },
+        "sampadaḥ": {
+          "translation": "earned money"
+        },
+        "rakṣaṇaṁ": {
+          "translation": "protection"
+        },
+        "kartuṁ": {
+          "translation": "to perform"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "śaknuyāt": {
+          "translation": "might/may/would not be able"
+        }
+      }
+    },
+    {
+      "sequence": 11,
+      "original": "iti",
+      "translation": "denoting end of speechdialogue by Pratapa",
+      "word_translations": {
+        "iti": {
+          "translation": "thus he said so."
+        }
+      }
+    },
+    {
+      "sequence": 12,
+      "original": "tadā harīśaḥ kruddhaḥ san",
+      "translation": "Then Harīśa, being angry (said)-",
+      "word_translations": {
+        "tadā": {
+          "translation": "then"
+        },
+        "harīśaḥ": {
+          "translation": "Harisha"
+        },
+        "kruddhaḥ": {
+          "translation": "angry"
+        },
+        "san": {
+          "translation": "being"
+        }
+      }
+    },
+    {
+      "sequence": 13,
+      "original": "ayē pratāpa vidyāvān manuṣya ēva buddhimān bhavati iti mā cintayatu",
+      "translation": "\"O Pratapa! Do not think that only a learned man is intelligent.",
+      "word_translations": {
+        "ayē": {
+          "translation": "Hey"
+        },
+        "pratāpa": {
+          "translation": "Pratap"
+        },
+        "vidyāvān": {
+          "translation": "learned"
+        },
+        "manuṣya": {
+          "translation": "man"
+        },
+        "ēva": {
+          "translation": "only"
+        },
+        "buddhimān": {
+          "translation": "intelligent"
+        },
+        "bhavati": {
+          "translation": "is"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "mā": {
+          "translation": "not (do not)"
+        },
+        "cintayatu": {
+          "translation": "think(with mā before-it becomes:do not think)"
+        }
+      }
+    },
+    {
+      "sequence": 14,
+      "original": "ahaṁ kiṁ paṭhitavān",
+      "translation": "What have I studied?",
+      "word_translations": {
+        "ahaṁ": {
+          "translation": "I"
+        },
+        "kiṁ": {
+          "translation": "what"
+        },
+        "paṭhitavān": {
+          "translation": "studied"
+        }
+      }
+    },
+    {
+      "sequence": 15,
+      "original": "yadyapi mama putraḥ kimapi na jānāti iti dr̥śyatē tathāpi buddhayā tasya samānaḥ kō'pi nāsti",
+      "translation": "Even though my son seems to know nothing, yet in intelligence there is no one equal to him.\"",
+      "word_translations": {
+        "yadyapi": {
+          "translation": "although"
+        },
+        "mama": {
+          "translation": "my"
+        },
+        "putraḥ": {
+          "translation": "son"
+        },
+        "kimapi": {
+          "translation": "nothing"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "jānāti": {
+          "translation": "know (with na before-it becomes:does not know)"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "dr̥śyatē": {
+          "translation": "is seen"
+        },
+        "tathāpi": {
+          "translation": "in that"
+        },
+        "buddhayā": {
+          "translation": "of knowledge"
+        },
+        "tasya": {
+          "translation": "of his"
+        },
+        "samānaḥ": {
+          "translation": "same level"
+        },
+        "kō'pi": {
+          "translation": "someone (hindi-koi bhi)"
+        },
+        "nāsti": {
+          "translation": "not exists (kō'pi nāsti -  would mean:no one exists)"
+        }
+      }
+    },
+    {
+      "sequence": 16,
+      "original": "iti uktavān",
+      "translation": "he said.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "uktavān": {
+          "translation": "said"
+        }
+      }
+    },
+    {
+      "sequence": 17,
+      "original": "tadā pratāpaḥ harīśasya putram āhūya",
+      "translation": "Then Pratāpa, having called Harīśa’s son - ",
+      "word_translations": {
+        "tadā": {
+          "translation": "then"
+        },
+        "pratāpaḥ": {
+          "translation": "Pratapa"
+        },
+        "harīśasya": {
+          "translation": "of Harisha"
+        },
+        "putram": {
+          "translation": "son"
+        },
+        "āhūya": {
+          "translation": "having called"
+        }
+      }
+    },
+    {
+      "sequence": 18,
+      "original": "vatsa ēṣaḥ vr̥ṣṭikālaḥ uta śaityakālaḥ utāhō grīṣmakālaḥ",
+      "translation": "\"Dear child, is this the rainy season, the cold season, or else the summer season?\"",
+      "word_translations": {
+        "vatsa": {
+          "translation": "child/dear child"
+        },
+        "ēṣaḥ": {
+          "translation": "this"
+        },
+        "vr̥ṣṭikālaḥ": {
+          "translation": "rainy season"
+        },
+        "uta": {
+          "translation": "or"
+        },
+        "śaityakālaḥ": {
+          "translation": "winter season"
+        },
+        "utāhō": {
+          "translation": "or else"
+        },
+        "grīṣmakālaḥ": {
+          "translation": "summer season"
+        }
+      }
+    },
+    {
+      "sequence": 19,
+      "original": "iti pr̥ṣṭavān",
+      "translation": "he asked.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "pr̥ṣṭavān": {
+          "translation": "he asked"
+        }
+      }
+    },
+    {
+      "sequence": 20,
+      "original": "tadā bālakaḥ",
+      "translation": "Then the child (said)-",
+      "word_translations": {
+        "tadā": {
+          "translation": "then"
+        },
+        "bālakaḥ": {
+          "translation": "the child"
+        }
+      }
+    },
+    {
+      "sequence": 21,
+      "original": "ahaṁ kālaviṣayē kimapi na jānāmi parantu āpaṇē sarvatra āmraphalāni ēva dr̥śyantē mayā",
+      "translation": "\"I do not know anything about the season, but everywhere in the marketplace only mangoes are seen by me.\"",
+      "word_translations": {
+        "ahaṁ": {
+          "translation": "I"
+        },
+        "kālaviṣayē": {
+          "translation": "in the matter of season"
+        },
+        "kimapi": {
+          "translation": "anything"
+        },
+        "na": {
+          "translation": "not(nothing at all)"
+        },
+        "jānāmi": {
+          "translation": "I do not know"
+        },
+        "parantu": {
+          "translation": "but"
+        },
+        "āpaṇē": {
+          "translation": "in market"
+        },
+        "sarvatra": {
+          "translation": "everywhere"
+        },
+        "āmraphalāni": {
+          "translation": "mango fruits"
+        },
+        "ēva": {
+          "translation": "only"
+        },
+        "dr̥śyantē": {
+          "translation": "are visbile"
+        },
+        "mayā": {
+          "translation": "by me"
+        }
+      }
+    },
+    {
+      "sequence": 22,
+      "original": "iti uttaraṁ dattavān",
+      "translation": "he gave the answer thus.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "uttaraṁ": {
+          "translation": "answer"
+        },
+        "dattavān": {
+          "translation": "he gave"
+        }
+      }
+    },
+    {
+      "sequence": 23,
+      "original": "tadā pratāpaḥ hasan",
+      "translation": "Then Pratāpa, laughing-",
+      "word_translations": {
+        "tadā": {
+          "translation": "then"
+        },
+        "pratāpaḥ": {
+          "translation": "Pratapa"
+        },
+        "hasan": {
+          "translation": "laughing"
+        }
+      }
+    },
+    {
+      "sequence": 24,
+      "original": "bhavatu nāma tāni phalāni kutaḥ āgacchanti iti kiṁ bhavān jānāti",
+      "translation": "\"Well then, do you know from where those fruits come?\"",
+      "word_translations": {
+        "bhavatu": {
+          "translation": "let it be/so be it"
+        },
+        "nāma": {
+          "translation": "indeed/admittedly/conceding (used for emphasis or concession)"
+        },
+        "tāni": {
+          "translation": "those"
+        },
+        "phalāni": {
+          "translation": "fruits"
+        },
+        "kutaḥ": {
+          "translation": "from where"
+        },
+        "āgacchanti": {
+          "translation": "come"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "kiṁ": {
+          "translation": "do"
+        },
+        "bhavān": {
+          "translation": "you"
+        },
+        "jānāti": {
+          "translation": "know"
+        }
+      }
+    },
+    {
+      "sequence": 25,
+      "original": "iti pr̥ṣṭavān",
+      "translation": "thus he asked.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "pr̥ṣṭavān": {
+          "translation": "he asked"
+        }
+      }
+    },
+    {
+      "sequence": 26,
+      "original": "kaṇḍōlēbhyaḥ iti anukṣaṇam uttara dattavān bālakaḥ",
+      "translation": "The boy repeatedly gave the answer, ‘From the baskets.’",
+      "word_translations": {
+        "kaṇḍōlēbhyaḥ": {
+          "translation": "from baskets"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "anukṣaṇam": {
+          "translation": "repeatedly"
+        },
+        "uttara": {
+          "translation": "answe"
+        },
+        "dattavān": {
+          "translation": "gave"
+        },
+        "bālakaḥ": {
+          "translation": "child/the boy"
+        }
+      }
+    },
+    {
+      "sequence": 27,
+      "original": "tat śrutvā harīśaḥ kōpēna svaputraṁ dr̥ṣṭvā pratāpam uddiśya",
+      "translation": "Having heard that, Harisha, with anger, looked at his own son and (then) addressed towards Pratapa.",
+      "word_translations": {
+        "tat": {
+          "translation": "that"
+        },
+        "śrutvā": {
+          "translation": "after hearing"
+        },
+        "harīśaḥ": {
+          "translation": "Harisha"
+        },
+        "kōpēna": {
+          "translation": "with anger"
+        },
+        "svaputraṁ": {
+          "translation": "his son"
+        },
+        "dr̥ṣṭvā": {
+          "translation": "after seeing"
+        },
+        "pratāpam": {
+          "translation": "Pratapa"
+        },
+        "uddiśya": {
+          "translation": "towards"
+        }
+      }
+    },
+    {
+      "sequence": 28,
+      "original": "pratāpa bhavatā uktaṁ yuktam ēva asti",
+      "translation": "Pratāpa, what you said is absolutely right.",
+      "word_translations": {
+        "pratāpa": {
+          "translation": "Pratapa"
+        },
+        "bhavatā": {
+          "translation": "by"
+        },
+        "uktaṁ": {
+          "translation": "said"
+        },
+        "yuktam": {
+          "translation": "appropriate/proper/reasonable"
+        },
+        "ēva": {
+          "translation": "indeed"
+        },
+        "asti": {
+          "translation": "is"
+        }
+      }
+    },
+    {
+      "sequence": 29,
+      "original": "ēṣaḥ buddhimān na",
+      "translation": "This child is not intelligent.",
+      "word_translations": {
+        "ēṣaḥ": {
+          "translation": "this person(male)"
+        },
+        "buddhimān": {
+          "translation": "intelligent"
+        },
+        "na": {
+          "translation": "no"
+        }
+      }
+    },
+    {
+      "sequence": 30,
+      "original": "āmraphalāni vipaṇitaḥ āgacchanti ityapi ēṣaḥ na jānāti iti tu mahatē āśvaryāya ēva khalu",
+      "translation": "That this one does not even know that mangoes come from the market is truly a cause of great astonishment.",
+      "word_translations": {
+        "āmraphalāni": {
+          "translation": "mango fruits"
+        },
+        "vipaṇitaḥ": {
+          "translation": "from the market"
+        },
+        "āgacchanti": {
+          "translation": "come"
+        },
+        "ityapi": {
+          "translation": "this also"
+        },
+        "ēṣaḥ": {
+          "translation": "this person"
+        },
+        "na": {
+          "translation": "not"
+        },
+        "jānāti": {
+          "translation": "know"
+        },
+        "iti": {
+          "translation": "thus"
+        },
+        "tu": {
+          "translation": "but"
+        },
+        "mahatē": {
+          "translation": "great"
+        },
+        "āśvaryāya": {
+          "translation": "wonder, astonishment"
+        },
+        "ēva": {
+          "translation": "just/only/indeed"
+        },
+        "khalu": {
+          "translation": "indeed/truly/as you know"
+        }
+      }
+    },
+    {
+      "sequence": 31,
+      "original": "iti uktavān",
+      "translation": "thus he said",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "uktavān": {
+          "translation": "he said"
+        }
+      }
+    },
+    {
+      "sequence": 32,
+      "original": "tadā pratāpaḥ",
+      "translation": "Then Pratapa",
+      "word_translations": {
+        "tadā": {
+          "translation": "then"
+        },
+        "pratāpaḥ": {
+          "translation": "Pratapa"
+        }
+      }
+    },
+    {
+      "sequence": 33,
+      "original": "yathā pitā tathā putraḥ",
+      "translation": "Like father, like son.",
+      "word_translations": {
+        "yathā": {
+          "translation": "just as, like"
+        },
+        "pitā": {
+          "translation": "father"
+        },
+        "tathā": {
+          "translation": "so, likewise"
+        },
+        "putraḥ": {
+          "translation": "son"
+        }
+      }
+    },
+    {
+      "sequence": 34,
+      "original": "iti cintayan manasi ēva hasitavān",
+      "translation": "Thinking thus, he laughed only within his mind.",
+      "word_translations": {
+        "iti": {
+          "translation": "thus"
+        },
+        "cintayan": {
+          "translation": "thinking"
+        },
+        "manasi": {
+          "translation": "in mind"
+        },
+        "ēva": {
+          "translation": "only"
+        },
+        "hasitavān": {
+          "translation": "laughing/smiling"
+        }
+      }
+    }
+  ]
+}
